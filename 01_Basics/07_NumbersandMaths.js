@@ -35,10 +35,12 @@ console.log(Math.sqrt(55)) //Returns the square root
 console.log(Math.min(1,4,7))//Returns the min value
 console.log(Math.max(4,6,2))//returns the max value
 
+//Random Number
+
 console.log(Math.random())//returns random number between 0 to 1
 console.log((Math.random()*10) + 1) //returns random number between 0 to 1 by multiplying it to 10 and 1 is added to avoid zero
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random()*(max-min+1)) + min) // it will give random number between 10 to 20
+console.log(Math.floor(Math.random()*(max-min+1)) + min) // it will give random number between 10 to 20 

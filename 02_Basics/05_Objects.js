@@ -10,3 +10,6 @@ console.log(user)
 
 let {course_name} = user
 console.log(course_name)
+
+// My Github API
+// https://api.github.com/users/NikitaJaiswal13

@@ -21,6 +21,10 @@ console.log(myArr)
 
 //slice and Splice
 
+// The main difference between the slice and splice is that
+// slice => does not manipulate the array (Does not changes the array)
+// splice => Manipulates the array (Changes the array)
+
 console.log(myArr.slice(1,3))
 console.log(myArr)
 

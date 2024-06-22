@@ -42,4 +42,4 @@ console.log("\n\n\n")
 console.log(Object.keys(user)) //It makes array of all keys
 console.log(Object.values(user)) // It makes array of all values
 console.log(Object.entries(user)) //It makes array of key and value pair
-console.log(user.hasOwnProperty("City")) // It checks whether City is present in user object or not 
+console.log(user.hasOwnProperty("City")) // It checks whether City is present in user object or not

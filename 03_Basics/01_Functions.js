@@ -16,7 +16,7 @@ my_name()
 // While function call => Arguments
 // If not passed any argument , then the value is undefined 
 
-function loggedIn(username = "nj") {
+function loggedIn(username = "NJ") {
 
     if(username)
         console.log(`${username} logged in successfully !`)
@@ -29,3 +29,4 @@ function loggedIn(username = "nj") {
 
 loggedIn()
 loggedIn("Nikita")
+

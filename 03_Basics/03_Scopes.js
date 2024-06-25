@@ -22,8 +22,8 @@ function parent(){
 parent()
 
 // NOTE:-
-// var = globally scoped
-// let = blocked scoped
+// var => globally scoped
+// let => blocked scoped
 
 // var can be updated and redeclared
 // let can be updated and but cannot be redeclared

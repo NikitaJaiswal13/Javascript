@@ -1,11 +1,13 @@
-console.log(addOne(5))
+console.log(AddOne(5))
+
 // Function
-function addOne(num) {
+function AddOne(num) {
     return num + 1
 }
 
 
 // console.log(addTwo(5))
+
 // Expression
 let addTwo = function(num) {
     return num + 2

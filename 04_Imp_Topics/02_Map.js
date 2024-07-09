@@ -1,3 +1,5 @@
+const data = require('./data.json')
+
 let myNums1 = [1, 2, 3, 4, 5] 
 
 let map1 = myNums1.map( (item) => {
@@ -13,3 +15,8 @@ let map2 = myNums2
         .map( (item) => item-1)
         .filter( (item) => item>=3)
 console.log(map2);
+
+let map3 = data.map( (item) => {
+    return item.name = "nj"
+})
+console.log(map3);

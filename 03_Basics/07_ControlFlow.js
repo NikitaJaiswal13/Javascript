@@ -90,10 +90,10 @@ switch (week) {
 */
 
 // To check Empty array 
-// array_name.length === 0
+array_name.length === 0
 
 // To check Empty object
-// Object.keys(Object_name).length === 0
+Object.keys(Object_name).length === 0
 
 // Nullish Coalescing operator (??)
 

@@ -1,3 +1,5 @@
+const data = require('./data.json')
+
 const arr1 = [ 11 , 12 , 13 , 14 , 15 ]
 
 const red1 = arr1.reduce( function (acc , curval) {

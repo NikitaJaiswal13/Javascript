@@ -1,33 +1,4 @@
-/* 
 
-
-
-button {
-    padding: 3rem;
-    margin: 1rem;
-    transition: all ease-in-out 0.2s;
-}
-
-button:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
-
-#red {
-    background-color: red;
-}
-
-#yellow {
-    background-color: yellow;
-}
-
-#green {
-    background-color: green;
-}
-
-#white {
-    background-color: white;
-} */
 
 body{
     font-family: sans-serif;
@@ -50,7 +21,7 @@ body{
 }
 
  .container:nth-child(1) {
-    background-color: red;
+    background-color: blue;
 } 
 
 button{
@@ -64,8 +35,8 @@ button:hover{
     transform: scale(1.02);
 }
 
-#red{
-    background-color: red;
+#blue{
+    background-color: blue;
 }
 
 #yellow{

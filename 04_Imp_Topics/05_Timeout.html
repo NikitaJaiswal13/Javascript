@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeout</title>
+    <style>
+        /* 
+
+        .main {
+            margin-top: 5rem;
+            font-size: 2rem;
+        }
+            */
+
+        body {
+            font-family: sans-serif;
+        }
+
+        #header {
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        .container,
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            margin: 1rem;
+            padding: 3rem;
+            border-radius: 0.3rem;
+            transition: all ease-in-out 0.2s;
+        }
+
+        button:hover {
+            cursor: pointer;
+            transform: translatey(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="header">setTimeout and clearTimeout</h1>
+
+    <div class="container">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+    <div class="main">
+
+    </div>
+
+    <script>
+        const hello = () => { 
+            document.querySelector('.main').innerHTML = "Hello, I am Nikita Jaiswal"
+         }
+
+        //SetTimeout
+        let setId = () =>{
+            let setId = setTimeout(hello , 1000)    // console.log(setId)
+        }
+        document.querySelector('#start').addEventListener('click' , setId , false)
+
+        //clearTimeout
+        let clear = ()=>{
+            clearTimeout(setId)
+        }
+        document.querySelector('#stop').addEventListener('click' , clear , false)
+
+
+
+// Call the set function to initiate the timeout
+
+     </script>
+</body>
+
+</html>

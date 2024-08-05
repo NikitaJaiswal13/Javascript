@@ -1,4 +1,4 @@
-class teacher{
+class User{
     constructor(username){
         this.username = username
     }
@@ -12,5 +12,5 @@ class teacher{
     }
 }
 
-const name =new teacher.logMe("Nikita")
-console.log(teacher.createId())
+const name =new User("Nikita")
+console.log(name)

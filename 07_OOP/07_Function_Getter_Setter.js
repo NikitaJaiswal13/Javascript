@@ -24,3 +24,6 @@ function User(email, password){
 const chai = new User("chai@chai.com", "chai")
 
 console.log(chai.email);
+
+// function behaves like function and object 
+// therefore we can use Object.apply.defineProperty() 
